@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meurh.API", "Meurh.API\Meurh.API.csproj", "{05804207-D7BF-4D9C-A74D-317478607FEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{38BE9C65-3466-470F-BA01-79330FE77C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meurh.Test.API", "meurh.Test.API\meurh.Test.API.csproj", "{9E9DA5E4-B61E-47D7-A616-F9C325997ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05804207-D7BF-4D9C-A74D-317478607FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05804207-D7BF-4D9C-A74D-317478607FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05804207-D7BF-4D9C-A74D-317478607FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05804207-D7BF-4D9C-A74D-317478607FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9DA5E4-B61E-47D7-A616-F9C325997ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9DA5E4-B61E-47D7-A616-F9C325997ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9DA5E4-B61E-47D7-A616-F9C325997ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9DA5E4-B61E-47D7-A616-F9C325997ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E9DA5E4-B61E-47D7-A616-F9C325997ED7} = {38BE9C65-3466-470F-BA01-79330FE77C58}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5A9C328-DE98-4D6C-A0EA-5D12E1F31ADE}
+	EndGlobalSection
+EndGlobal
